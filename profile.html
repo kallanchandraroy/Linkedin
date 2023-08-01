@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------  icon------ -->
+
+    <script src="https://kit.fontawesome.com/1eff5ac3a2.js" crossorigin="anonymous"></script>
+
+    <!-- -----------bootstrap----- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- ------------css------- -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./css/images/logo.png">
+    <title>LinkedIn | Profile</title>
+</head>
+<body>
+    <header id="header_profile">
+        <nav class="nav_bar_profil">
+            <div class="logo_search_bar">
+                <a href="#"><img class="logo" src="./css/images/logo.png" alt="logo"></a>
+                <div class="search_bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="search_bar_input"  type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="icons_bar_profils">
+                <ul class="icons_links_profil ">
+                    <li class="icon_link home_icon"><a href="#"><i class="fa-solid fa-house"></i><p>Home</p></a></li>
+                    <li class="icon_link"><a href="#"><i class="fa-solid fa-user-group"></i><span><p>My CV</p></span></a></li>
+                    <li class="icon_link"><a href="#"><i class="fa-solid fa-briefcase"></i><span><p>Experience</p></span></a></li>
+                    <li class="icon_link"><a href="#"><i class="fa-solid fa-comment-dots"></i><span><p>Messaging</p></span></a></li>
+                    <li class="icon_link  "><a href="#"><i class="fa-solid fa-user-group"></i><span><p>Publications</p></span></a></li>
+                    <li class="icon_link me" id="profil_button">
+                        
+                        <a href="#" id="link_ckeck_pro"><img id="my_profil" src="./css/images/my photo.jpg" alt=""><span><p>Me<i class="fa-solid fa-caret-down"></i></p></span></a>
+
+                        <div class="profil_link" id="menu_profil">
+                            <div class="profil_name_job">
+                                <img class="post_photo_profil" src="./css/images/my photo.jpg" alt="#">
+                                <div class="name_and_job"> 
+                                    <h2>Md. Mikail Hossain</h2>
+                                    <p>Deputy General Manager</p>
+                                </div>
+                            </div>
+                            <div class="see_my_profil"><a href="profile.html">View Profile </a></div>
+                            <div class="account">
+                                <h4>Account</h4>
+                               
+                            </div>
+                            <div class="account">
+                                <h4>Manage</h4>
+                                <p><a href="#">My Blog</a></p>
+                            </div>
+                            <div class="log_out">
+                                <p>Sign Out</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul id="second_icons_links_nav">
+                    <!-- <li class="grid_products"><a href="#"><img  class="grid_icons" src="./css/images/grid.png" alt="#"> -->
+                        
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+   
+    <div class="toggle_header" id="toggle_my_header">
+        <div class="toggle_head">
+            <div class="profil_names">
+                <div class="online">
+                    <img class="online" src="./css/images/my photo.jpg" alt="#">
+                </div>  
+                <p><span> Md. Mikail Hossain </span><br> Deputy General Manager</p>
+            </div>
+            <div class="profil_button_toggle">
+                <div class="new_section" id="toggle_menu_new-sect-btn" >CV</div>
+                <div class="my_goal" id="toggle_menu_new-sect-btn">Message</div>
+                <!-- <div class="my_goal_toggle">Open to</div> -->
+            </div>  
+        </div>
+    </div>
+
+    <!-- ----------------left box---------------- -->
+    <main class="profil_page">
+        <section class="left_box">
+            <div class="profil_info" id="pro_info">
+                <div class="backgound_and_profil">
+                    <i class="fa-solid fa-pencil"></i>
+                    <img class="background_img" src="./css/images/my background 2.jpg" alt="#">
+                    <img class="profil_pic" src="./css/images/my profil profil.jpg" alt="#">
+                </div>
+                <div class="personnal_info_profil">
+                    <i class="fa-solid fa-pencil"></i>
+                    <div class="name_and_school">
+                        <h2>Md. Mikail Hossain </h2>
+                        <p>
+                            <img src="./css/images/my profil profil.jpg" alt="#">
+                            <span>Krishibid Group</span> 
+                        </p>
+                    </div>
+                    <h4>Deputy General Manager</h4>
+                    <P>Krishibid Group, Mirpur, Dhaka &nbsp;<a href="#">Contact info</a>
+                    </P>
+                   <div class="profil_button">
+                       <div class="my_goal">Message</div>
+                       <div class="more">My CV</div>
+                       <!-- <div class="new_section">More</div> -->
+                   </div>
+                   <div style="padding: 1.5rem 1.5rem 0 1.5rem;"></div>
+                   
+                </div>
+            </div>
+            
+
+            <!-- <div class="activity">
+                <div class="actity_title">
+                    <div class="title">
+                        <h4>Blog</h4>
+                        <h6>926 Post</h6>
+                    </div>
+                    <div class="start_new_post">
+                        <p>post</p>
+                    </div>
+                </div>
+                <div class="old_post poss">
+                    <p class="name"><span>Blog Title </span> Blog Details. </p>
+                    <span class="old_post_video"> <i class="fa-solid fa-circle-play"></i><img src="./css/images/my photo.jpg" alt="#"></span>
+                </div>
+
+                <div class="old_post">
+                    <p class="name"><span>Blog Title </span> Blog Details. </p>
+                    <div class="video_comment">
+                        <span class="old_post_video"><img src="./css/images/my photo.jpg" alt="#">
+                        </span>
+                        <p>Details</p>
+                    </div>
+                </div>
+       
+                <div class="old_post">
+                    <p class="name"><span>Blog Title </span> Blog Details </p>
+                    <div class="video_comment">
+                        <span class="old_post_video"> <i class="fa-solid fa-circle-play"></i><img src="./css/images/my photo.jpg" alt="#">
+                        </span>
+                        <p>Details <br> <br> Details  &nbsp; <a href="#"> ...See More</a> </p>
+                    </div>
+                </div>
+                <div class="old_post last_post">
+                    <p class="name"><span>Blog Title </span> Details</p>
+                    <div class="video_comment">
+                        <span class="old_post_video"><img src="./css/images/my photo.jpg" alt="#">
+                        </span>
+                        <p>Blog Title <br>
+                            Details<a href="#"> ...See More</a> </p>
+                    </div>
+                </div>
+                <div class="show_more_res more_act">
+                    <p class="click_more">See All Blogs <i class="fa-solid fa-right-long"></i></p>
+                </div>
+            </div> -->
+            <div class="infos">
+                <div class="title"><h4>About</h4><i class="fa-solid fa-pen"></i></div>
+                <p>Career Summary: 
+• Working as DGM (Sales & Marketing) at Krishibid Group & have 14 years’ experience in Sales, & Marketing, branding, Client Managing, Strategic Business Planning, Positioning & Development area. 
+
+
+
+</p>
+<p><a href="#"> ...See More</a> </p>
+            </div>
+            <div class="infos">
+                <div class="title">
+                    <h4>Education</h4>
+                   <span class="icons"> 
+                       <i class="fa-solid fa-plus"></i>
+                       <i class="fa-solid fa-pen"></i>
+                    </span>
+                </div>
+                <p><img src="./css/images/logo.png" alt=""><span>Bangladesh Agricultural University </span><br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+Bachelor of Science, AgricultureBachelor of Science, Agriculture<br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;2023 <br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Grade: 4
+<br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Activities and societies: Gold Medalist</p>
+            </div>
+            <div class="infos">
+                <div class="title"><h4>Experience</h4>
+                   <span class="icons"> 
+                       <i class="fa-solid fa-plus"></i>
+                       <i class="fa-solid fa-pen"></i>
+                    </span>
+                </div>
+                <p><img src="./css/images/logo.png" alt="">  <span>
+Glorious Crop Care Limited</span>  <br> &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Deputy General Manager <br> &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;March 2018 - Present · 4 ans 9 mos<br>  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Address</p>
+            </div>
+            <div class="skills">
+                <div class="title">
+                    <h4>Skills</h4>
+                    <span class="icons double_icons"> 
+                        <div class="quiz">
+                            <p>Demonstrate skills</p>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-pen"></i>
+                        </span>
+                     </span>
+                </div>
+                <h5 class="tech_language" >JavaScript</h5>
+                <h5 class="tech_language" >css</h5>
+                <h5>Bootstrap</h5>
+            </div>
+            <div class="show_more_res more_skill">
+                <p class="click_more">Show all 34 skills <i class="fa-solid fa-right-long"></i></p>
+            </div>
+            <div class="languages">
+                <div class="title">
+                    <h4>Languages</h4>
+                    <span> <i class="fa-solid fa-plus"></i><i class="fa-solid fa-pen"></i></span>
+                </div>
+                <div class="language">
+                    <h5>Bangla</h5>
+                    <p>Native</p>
+                </div>
+                <div class="language">
+                    <h5>English</h5>
+                    <p>Native</p>
+                </div>
+                <div class="language">
+                    <h5>Urdu</h5>
+                    <p>Native</p>
+                </div>
+            </div>
+
+            <!-- <div class="hobbies">
+                <h4>Interests</h4>
+                <div class="hobbies_names">
+                    <p class="first_hobbie"><a href="#">Entreprise</a></p>
+                    <p><a href="#">Groups</a></p>
+                    <p><a href="#">Companies</a></p>
+                </div>
+          
+                <div class="hobbies_follow">
+                    <div class="hob_follow">
+                        <img src="./css/images/logo.png" alt="">
+                        <div class="follow_name">
+                            <h5><a href="#">IT Solutions</a></h5>
+                            <p>1000 Followers</p>
+                            <div class="follow_button follow_button_profil"><i class="fa-solid fa-check"></i>Dhaka</div>
+                        </div>
+                    </div>
+                    <div class="hob_follow">
+                        <img src="./css/images/logo.png" alt="">
+                        <div class="follow_name">
+                            <h5><a href="#">IT Solutions</a></h5>
+                            <p>1000 Followers</p>
+                            <span class=" follow_button follow_button_profil"><i class="fa-solid fa-check"></i>Dhaka</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="show_more_res more_act">
+                <p class="click_more">Show All<i class="fa-solid fa-right-long"></i></p>
+            </div> -->
+
+        </section>
+
+
+        <!-- ------------ right box=---- -->
+        
+            <article class="right_container right_box " id="right_box">
+                <div class="switch_lang">
+                    <!-- <div class="languages_box">
+                        <div class="language_box"><p> Bangla</p></div>
+                        <div class="english"><p>English</p></div>
+                        <i class="fa-solid fa-globe"></i>
+                    </div> -->
+                    <div class="modification"><p><a href="#">Edit public profile & URL <br> URL</a> <i class="fa-solid fa-circle-question"></i></p></div>
+                </div>
+
+                <div>
+                    <a href="https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&amp;mcid=6899045044465016833"
+                        target="_blank"><img src="https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png"
+                            alt="Advertise on LinkedIn" border="0"></a>
+                </div>
+
+            <!-------follow peolpe----- -->
+
+                <div class="follow_people">
+                    <h3>My Blog</h3>
+                    <div class="profil_name_job">
+                        <img class="post_photo_profil" src="./css/images/my photo.jpg" alt="#">
+                        <div class="name_and_job second_name"> 
+                            <h5>Blog 1 </h4>
+                            <p>Blog Details</p>
+                        </div>
+                    </div>
+                    <div class="follow_button fol_button"><a href="#">More</a></div>
+                </div>
+    
+                <div class="follow_people">
+                    <div class="profil_name_job second_name">
+                        <img class="post_photo_profil" src="./css/images/my photo.jpg" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>Blog 1 </h4>
+                            <p>Blog Details</p>
+                        </div>
+                    </div>
+                    <div class="follow_button fol_button"><a href="#">More</a></div>
+                </div>
+    
+                <div class="follow_people follow_last">
+                    <div class="profil_name_job second_name">
+                        <img class="post_photo_profil" src="./css/images/my photo.jpg" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>Blog 1 </h4>
+                            <p>Blog Details</p>
+                        </div>
+                    </div>
+                    <div class="follow_button fol_button"><a href="#">More</a></div>
+                </div>
+                <div class="see_all_suggestion "><span>See More</span><i class="fa-solid fa-angle-down"></i></div>
+
+                
+
+                <aside class="learning_box">
+                    <h6>My Videos</h6>
+                    <p></p>
+                    <div class="competences_box">
+                        <div class="competence">
+                            <div class="img_box">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <img src="./css/images/my photo.jpg" alt="">
+                            </div>
+                            <p><a href="#">Python 
+                               </a><br> <br> <span> 19 Videos</span> </p>
+                        </div>
+                        <div class="competence">
+                            <div class="img_box">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <img src="./css/images/my photo.jpg" alt="">
+                            </div>
+                            <p><a href="#">Excel<br>  </a> <br> <br> <span>19 Videos</span> </p>
+                        </div>
+                        <div class="competence">
+                            <div class="img_box">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <img src="./css/images/my photo.jpg" alt="">
+                            </div>
+                            <p><a href="#">React <br> </a> <br> <br> <span>19 Videos</span> </p>
+                        </div>
+                    </div>
+                    
+                </aside>
+                <div class="see_all_suggestion last "><span>See my All Videos</span> </div>
+            </article>
+    
+    </main>
+    <!-- ----------footet profil page-- -->
+    <footer class="footer_profil">
+        <h6 class="title_footer"><i class="fa fa-linkedin" aria-hidden="true"></i></h6>
+       
+        <div class="footer_content">
+            <div  class="responsive_footer_box"> 
+                <ul class="footer_box">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    
+                    
+                </ul>
+                <ul class="footer_box">
+                    <p > © 2022</p>
+                </ul>
+               
+            </div>
+
+            <div class="responsive_footer_box">
+                <ul class="footer_box">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+            
+            <div class="choose_language">
+                <p><span>Select Language</span></p>
+                <select name="" id="">
+                    <option value="Francais">English</option>
+                    <option value="Francais">Bangla</option>
+                </select>
+            </div>
+        </div>
+       
+    </footer>
+
+    
+    <article class="messages_float_box " id="sms_float_container">
+        <div class="sms_float_header">
+            <div class="photo_and_title">
+                <div class="sms_float_photo">
+                    <img src="./css/images/my photo.jpg" alt="#">
+                </div>
+                <h4>Messaging</h4>
+            </div>
+            <div class="float_icons_box">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <!-- <i class="fa-solid fa-arrow-up-right-from-square"></i> -->
+                <span id="btn_toggle_message_box">
+
+                    <i class="fa-solid fa-angle-up"></i>
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="sms_container">
+            <div class="message_input_container" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="message_input" id="search_message" type="text" placeholder="Search messages" onkeyup="dynamicSearch()">
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+            <div class="meassage_profil_container" >
+                <div class="message_profils_sider">
+                    <a href="messagerie.html">
+                        <div class="message_profil_item message_one others_message">
+                            <div class="message_profil_photo">
+                                <img src="./css/images/my photo.jpg" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Kallan</span>&nbsp; &nbsp; &nbsp;  <span class="message_profil_date"></span>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i>
+                                </p>
+                                <p>Hello </p>                             
+                            </div>
+                        </div>
+                    </a>
+
+                    
+                    <div class="message_profil_item others_message">
+                        <div class="message_profil_photo">
+                            <img src="./css/images/my photo.jpg" alt="">
+                        </div>
+                        <div class="message_profil_name_and_text">
+                            <p><span class="name_pro">Shuvo</span> &nbsp; &nbsp;&nbsp; &nbsp; <span class="message_profil_date"></span><i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-comment-slash"></i></p>
+                            <p>Hey </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </article>
+    <script src="index.js"></script>
+</body>
+</html>
